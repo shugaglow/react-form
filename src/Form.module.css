@@ -1,0 +1,346 @@
+.mainContainer{
+    background-color: #915804;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+.leftContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 6rem 1rem;
+    row-gap: 1rem;
+    border-radius: 1rem;
+
+}
+
+.leftContainer img{
+    width: 350px;
+    height: 220px;
+}
+
+.rightContainer{
+    width: 50%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContainer{
+    /* background-color: blue;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+
+}
+
+.topContainer h2{
+    font-size: 32px;
+    color: #915804;
+}
+
+.topContainer p{
+    text-align: center;
+    color: #915804;
+}
+
+
+.formContainer{
+    background-color: #915804;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.formElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua;  */
+
+}
+.inputGroup{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    row-gap: 0.2rem;
+}
+
+.inputGroup p{
+    color: #fff;
+}
+
+label{
+    color: #fff;
+}
+.inputGroup p{
+    text-align: end;
+    width: 100%;
+}
+
+.inputContainer{
+    padding: 1rem 2rem 1rem 0.5rem;
+    background-color: #f8f8f8;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid #f3f3f3;
+    width: 100%;
+}
+
+
+.buttonContainer{
+    padding: 1rem;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.bottomContainer p{
+    color: #fff;
+}
+
+button{
+    padding: 1rem 2rem;
+    width: 100%;
+    outline: none;
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.bottomContainer{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.icons{
+    /* background-color: #915804; */
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    column-gap: 1rem;
+    cursor: pointer;
+    color: #f3f3f3;
+}
+
+@media (max-width: 1024px) {
+
+    body{
+        margin: 6.25rem auto;
+    }
+    .mainContainer{
+        background-color: #915804;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContainer{
+        background-color: #915804;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        row-gap: 1rem;
+    }
+
+    .leftContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 6rem 1rem;
+        row-gap: 1rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .leftContainer img{
+        width: 450px;
+        height: 320px;
+    }
+    
+    .rightContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formContainer{
+        background-color: #915804;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+    body{
+        background-color: #915804;
+    }
+    .mainContainer{
+        background-color: #915804;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 1rem;
+        row-gap: 1rem;
+    }
+
+    .leftContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 4rem 1rem;
+        row-gap: 1rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .leftContainer img{
+        width: 350px;
+        height: 270px;
+    }
+    
+    .rightContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formContainer{
+        background-color: #915804;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+}
+
+@media (max-width: 390px) {
+    body{
+        background-color: #915804;
+    }
+    .mainContainer{
+        background-color: #915804;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 1rem;
+        row-gap: 1rem;
+    }
+
+    .leftContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 3rem 1rem;
+        row-gap: 1rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .leftContainer img{
+        width: 320px;
+        height: 250px;
+    }
+    
+    .rightContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formContainer{
+        background-color: #915804;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+}
